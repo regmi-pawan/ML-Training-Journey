@@ -1,0 +1,31 @@
+def selection_sort(arr):
+    # Traverse through all array elements
+    for i in range(len(arr)):
+        # Find the minimum element in the unsorted part of the array
+        min_idx = i
+        for j in range(i + 1, len(arr)):
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+
+        # Swap the found minimum element with the first element of the unsorted part
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+
+    return arr
+
+
+# Get user input for array size and values
+try:
+    size = int(input("Enter the size of the array: "))
+    if size <= 0:
+        print("Array size must be greater than 0.")
+    else:
+        arr = []
+        for i in range(size):
+            value = int(input(f"Enter value {i + 1}: "))
+            arr.append(value)
+
+        print("Original array:", arr)
+        sorted_arr = selection_sort(arr)
+        print("Sorted array:", sorted_arr)
+except ValueError:
+    print("Please enter valid integers.")

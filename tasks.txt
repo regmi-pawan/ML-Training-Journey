@@ -1,0 +1,17 @@
+tasks:
+    01Implementation of Stack
+    02Implementation of Circular Queue
+    03Implementation of Bubble Sorting
+    04Implementation of Selection Sort
+    05Implementation of Insertion Sort
+    06Implementation of Quick Sort
+    07Implementation of Merge Sort
+    08Implementation of Heap Sort
+    09Implementation of Kruskal’s Algorithm
+    10Implementation of Prim’s Algorithm
+    11Implementation of Linear Searching
+    12Implementation of Binary Searching
+    13Implementation of Binary Search Tree
+    14Implementation of AVL Tree
+    15Implementation of Singly Linked List
+    16Implementation of Doubly Linked List
